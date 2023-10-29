@@ -1,11 +1,10 @@
-import BeautifulSoup
-#Pseudo code
+import re
 
 def main():
     # Prompts for a url to a playlist
     url = input("link to a playlist: ")
     if playlist_validator(url):
-        url_searcher(url)
+        print("valid")
     else:
         print("not valid")
 
